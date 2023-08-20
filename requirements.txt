@@ -1,0 +1,12 @@
+diffusers
+torch
+pinecone
+fashion-clip
+python-dotenv
+boto3
+fastapi
+uvicorn
+pydantic
+Pillow
+transformers
+beautifulsoup4

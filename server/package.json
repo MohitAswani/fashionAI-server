@@ -1,0 +1,42 @@
+{
+  "name": "modelGPT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyapatnala56/recruiter-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyapatnala56/recruiter-server/issues"
+  },
+  "homepage": "https://github.com/satyapatnala56/recruiter-server#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1437.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "9.0.0",
+    "mongoose": "^6.2.8",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.3",
+    "otp-generator": "^4.0.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
